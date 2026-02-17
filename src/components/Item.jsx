@@ -4,7 +4,7 @@ function Item({ name, category }) {
   const [isInCart, setIsInCart] = useState(false);
 
   function handleAddToCartClick() {
-    setIsInCart((isInCart) => !isInCart);
+    return <span>{name}</span>
   }
 
   return (
